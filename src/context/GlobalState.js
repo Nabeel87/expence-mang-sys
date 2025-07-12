@@ -8,3 +8,6 @@ const initialSate = {
         { id: 4, description: 'Salery 2', transactionAmount: -10000 }
     ]
 }
+
+//create the global context
+export const GlobalContext = createContext(initialSate);
